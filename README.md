@@ -5,8 +5,11 @@
 ####Get help information
 
 `bash barcode_correct4.sh -h`
+
 ./barcode_correct.sh [options]
+
 -h --help
+
 Please specify the following options:
 -fq1 --fastq_cell=SRR1853178_1.fastq   [gzipped fastq R1 or R2 for cell index reads]
 -fq2 --fastq_biology=SRR1853178_2.fastq   [gzipped fastq R1 or R2 for biology reads]
