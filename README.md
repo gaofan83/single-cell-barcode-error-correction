@@ -3,7 +3,7 @@
 ##User Guide
 
 ####Get help information
-`bash barcode_correct4.sh -h`
+####`bash barcode_correct4.sh -h`
 ./barcode_correct.sh [options]
 -h --help
 Please specify the following options:
