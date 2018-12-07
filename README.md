@@ -1,9 +1,8 @@
 # Single cell RNA-Seq barcode error correction
 
-##User Guide
+## User Guide
 
-####Get help information
-
+#### Get help information
 `bash barcode_correct4.sh -h`
 
 ./barcode_correct.sh [options]
