@@ -1,0 +1,5 @@
+# the following scripts count the number of corrected barcodes from cellranger alignment file 
+
+samtools view possorted_bam.bam | awk '{for (i=12; i<=NF; ++i) { if ($i ~ "^CR:|^CB:"){ split($i, tc, ":"); td[tc[1]] = tc[3]; } }; print td["CR"]"\t"td["CB"] }' > bc_correct.txt
+sed -i 's/-1//g' bc_correct.txt
+awk '{if($1!=$2) print}' bc_correct.txt | wc
